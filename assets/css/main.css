@@ -1,9 +1,9 @@
 * {
 	font-family: Verdana;
 }
-
+/*MENU*/
 ul {
-	background-color: #b30000;
+	background-color: #c93c26;
 	height: 60px;
 	display: block;
 	margin: 0px;
@@ -22,4 +22,28 @@ a {
 
 a:hover {
 	color: red;
+}
+
+/*CUERPO*/
+section {
+	background-color: #1c1905;
+}
+
+img {
+	height: 200px;
+	width: 200px;
+	border: 5px solid #575757;
+	margin-right: 20px;
+}
+
+div {
+	margin-left: 50px;
+	padding: 50px;
+}
+
+button {
+	background-color: #c93c26;
+	color: white;
+	border: none;
+
 }
