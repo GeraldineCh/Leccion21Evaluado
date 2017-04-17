@@ -11,7 +11,8 @@ ul {
 
 li {
 	display: inline-block;
-	padding: 15px;
+	padding: 10px;
+	margin-top: 10px;
 	list-style: none;
 }
 
@@ -39,13 +40,21 @@ img {
 
 div {
 	margin: 20px;
-	padding-left: 20px;
+	padding-left: 50px;
 }
 
 button {
 	background-color: #c93c26;
 	color: white;
 	border: none;
-	width: 300px;
+	width: 320px;
+	font-size: 15px;
 }
 
+p{
+	color: white;
+	display: inline-block;
+	width: 500px;
+	text-align: justify;
+	margin-right: 30px;
+}
