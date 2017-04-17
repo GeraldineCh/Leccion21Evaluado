@@ -26,6 +26,7 @@ a:hover {
 
 /*CUERPO*/
 section {
+	padding: 10px;
 	background-color: #1c1905;
 }
 
@@ -37,13 +38,14 @@ img {
 }
 
 div {
-	margin-left: 50px;
-	padding: 50px;
+	margin: 20px;
+	padding-left: 20px;
 }
 
 button {
 	background-color: #c93c26;
 	color: white;
 	border: none;
-
+	width: 300px;
 }
+
