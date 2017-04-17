@@ -3,6 +3,7 @@
 }
 /*MENU*/
 ul {
+	position: relative;
 	background-color: #c93c26;
 	height: 60px;
 	display: block;
@@ -26,16 +27,30 @@ a:hover {
 }
 
 /*CUERPO*/
-section {
-	padding: 10px;
+body {
+	margin: 0px;
 	background-color: #1c1905;
 }
 
+section {
+	padding: 10px;
+}
+
 img {
-	height: 200px;
-	width: 200px;
+	height: 180px;
+	width: 180px;
 	border: 5px solid #575757;
 	margin-right: 20px;
+}
+
+.close {
+    position: absolute;
+    top: 100px;
+    right: 425px;
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 div {
