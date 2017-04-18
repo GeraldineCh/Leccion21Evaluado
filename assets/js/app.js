@@ -1,15 +1,16 @@
 //Para que cierren las imágenes
-var span = document.getElementsByClassName("close");
-span.onclick = function() { 
-    for(i= 0; i < span.length; i++){
- span[i].addEventListener("click",function(){
+var span = document.getElementsByClassName('close');
+for(i= 0; i < span.length; i++){
+ span[i].addEventListener("click",out);
+}
+function out(){
   var img=this.parentNode;
     img.style.display="none";
-  });
-}}
+  }
+
+//Botón restaurar imágenes
 
 
-    
 
 
 
