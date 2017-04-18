@@ -1,7 +1,17 @@
-/*Para que cierren las imágenes
-var span = document.getElementsByClassName("close")[0];
+//Para que cierren las imágenes
+var span = document.getElementsByClassName("close");
 span.onclick = function() { 
-    modal.style.display = "none";}*/
+    for(i= 0; i < span.length; i++){
+ span[i].addEventListener("click",function(){
+  var img=this.parentNode;
+    img.style.display="none";
+  });
+}}
+
+
+    
+
+
 
 //Para primera columna con botón Origen
 document.getElementById("or").addEventListener("click", function(){

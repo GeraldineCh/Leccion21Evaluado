@@ -44,10 +44,10 @@ img {
 }
 
 .close {
-    position: absolute;
-    top: 100px;
-    right: 425px;
-    color: red;
+    position: relative;
+    top: -170px;
+    left: -50px;
+    color: #575757;
     font-size: 20px;
     font-weight: bold;
     cursor: pointer;
@@ -56,6 +56,11 @@ img {
 div {
 	margin: 20px;
 	padding-left: 50px;
+}
+
+figure {
+	display: inline;
+	margin-right: -50px;
 }
 
 button {
