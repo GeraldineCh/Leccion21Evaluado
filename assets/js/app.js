@@ -9,9 +9,12 @@ function out(){
   }
 
 //Botón restaurar imágenes
-
-
-
+document.getElementById("rest").addEventListener("click", function(){
+  var imagenes = document.getElementsByClassName("cont-img");
+  for(i= 0; i < imagenes.length; i++){
+   imagenes[i].style.display="inline-block";
+  }
+})
 
 
 //Para primera columna con botón Origen
